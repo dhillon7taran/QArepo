@@ -1,0 +1,16 @@
+package oops;
+
+public class DemoClassMain {
+
+	public static void main(String[] args) {
+		
+		DemoClass obj=new DemoClass();
+		
+		//calling reutrn type methods
+		
+		System.out.println(obj.addThreeNum(10,20,30));
+		System.out.println(obj.mulTwoVal(1.5f,1.5f));
+
+	}
+
+}

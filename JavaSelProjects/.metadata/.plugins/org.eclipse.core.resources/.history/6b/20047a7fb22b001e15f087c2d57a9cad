@@ -1,0 +1,38 @@
+package oops;
+
+public class DemoClassStatic {
+	
+	// Return type methods
+	
+	public long addThreeNum(long a ,long b,long c)
+	{
+		long res;
+		res=a+b+c;
+		return res;
+	}
+	
+	public float mulTwoVal(float x,float y)
+	{
+		return(x*y);
+	}
+	
+	//void type methods
+	
+	public void displayName(String x)
+	{
+		System.out.println("Entered User name is :"+x);
+	}
+	
+	//return type :array type
+	
+	public  String[] nameList()
+	{
+		return new String[]{"Jason","alex","Daniel"};
+	}
+	
+	public  long[] numList(long[] x)
+	{
+		return x;
+	}
+
+}
