@@ -1,0 +1,23 @@
+package testrunner;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+@RunWith(Cucumber.class)
+
+@CucumberOptions(
+		features = "E:\\Cucumber\\src\\test\\java\\com\\test\\cucumb\\login.feature",
+		glue= {"com.stepdefination"},
+		plugin = {"pretty","html:target/htmlreport1"},
+		monochrome= true
+		
+		
+		)
+
+
+public class TestRunnerClass {
+	
+
+}

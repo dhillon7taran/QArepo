@@ -1,0 +1,13 @@
+package oops;
+
+public class EmployeeMain {
+
+	public static void main(String[] args) {
+		
+		Employee Alex=new Employee();
+		
+		System.out.println(Alex.emp_id+"\t"+Alex.emp_name+"\t"+Alex.emp_sal);
+
+	}
+
+}

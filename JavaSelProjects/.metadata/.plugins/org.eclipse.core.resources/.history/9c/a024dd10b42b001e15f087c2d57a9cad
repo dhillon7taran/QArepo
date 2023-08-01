@@ -1,0 +1,11 @@
+package oops;
+
+public class Employee {
+	
+	// Data members or fields 
+	
+	public int emp_id;
+	public String emp_name;
+	public double emp_sal;
+
+}

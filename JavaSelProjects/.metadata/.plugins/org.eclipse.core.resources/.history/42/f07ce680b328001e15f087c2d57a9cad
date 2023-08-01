@@ -1,0 +1,36 @@
+package com.stepdefination;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class Stepdefclass {
+	@Given("I have fb url")
+	public void i_have_fb_url() {
+	   
+	}
+	@When("user enters valid username")
+	public void user_enters_valid_username() {
+	   
+	}
+	@When("user enters valid passwd")
+	public void user_enters_valid_passwd() {
+	    
+	}
+	@When("click on login button")
+	public void click_on_login_button() {
+	   
+	}
+	@Then("user should land on dashboard page")
+	public void user_should_land_on_dashboard_page() {
+	    
+	}
+
+
+
+	
+	
+	
+	
+	
+}

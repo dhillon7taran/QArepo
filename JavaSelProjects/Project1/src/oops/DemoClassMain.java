@@ -1,0 +1,35 @@
+package oops;
+
+public class DemoClassMain {
+
+	public static void main(String[] args) {
+		
+		DemoClass obj=new DemoClass();
+		
+		//calling reutrn type methods
+		
+		System.out.println(obj.addThreeNum(10,20,30));
+		System.out.println(obj.mulTwoVal(1.5f,1.5f));
+		
+		String[] strArray1=obj.nameList();
+		
+		for(String x:strArray1)
+		{
+			System.out.println(x);
+		}
+		
+		long[] longArray=obj.numList(new long[] {100,-4000,600});
+		
+		for(long x:longArray)
+		{
+			System.out.println(x);
+		}
+		
+		// calling void type method
+		
+		obj.displayName("Daniel");
+
+
+	}
+
+}
