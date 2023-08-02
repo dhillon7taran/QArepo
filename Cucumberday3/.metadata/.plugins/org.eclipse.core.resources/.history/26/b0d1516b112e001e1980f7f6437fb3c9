@@ -1,0 +1,29 @@
+package oops;
+
+public class Interface3Class2Impl implements Interface3{
+
+	@Override
+	public int addTwoNum(int x, int y) {
+		
+		return (x+y+1000);
+	}
+
+	@Override
+	public void displayCourse(String coursename) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void displayFullName(String fname, String lname) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public float mulTwoVal(float x, float y) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

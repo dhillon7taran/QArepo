@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunnerClass (1)" project="Cucumberday_Report" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="testrunner.TestRunnerClass" time="17.427">
+    <testsuite name="Verify facebook login feature" time="17.427">
+      <testcase name="To verify  facebook login functionality" classname="Verify facebook login feature" time="17.427"/>
+    </testsuite>
+  </testsuite>
+</testrun>

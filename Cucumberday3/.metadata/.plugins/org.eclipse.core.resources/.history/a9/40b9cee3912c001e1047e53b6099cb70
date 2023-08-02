@@ -1,0 +1,34 @@
+package hrmstepdefination;
+
+
+
+
+public class HRMdefination {
+
+	@Given("hrm url is given")
+	public void hrm_url_is_given() {
+	 
+		
+	    
+	}
+	@When("user enetrs username")
+	public void user_enetrs_username() {
+	  
+		
+	}
+	@When("user enters pswd")
+	public void user_enters_pswd() {
+	   
+	}
+	@When("click on login button")
+	public void click_on_login_button() {
+	    
+	}
+	@Then("it should navigate to hrm dashboard")
+	public void it_should_navigate_to_hrm_dashboard() {
+	  
+	}
+
+	
+	
+}

@@ -1,0 +1,11 @@
+package coreJava.basics;
+
+public class DemoProgram {
+
+	public static void main12(String[] args) {
+		
+		System.out.println("Welcome to Java TrainingProgram");
+
+	}
+
+}
