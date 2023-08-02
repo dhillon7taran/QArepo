@@ -1,0 +1,26 @@
+package collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayList1Demo {
+	
+	public static void main(String[] args)
+	{
+		
+		List<String> nameslist=new ArrayList<String>();
+		
+		nameslist.add("Nancy");
+		nameslist.add(1, "Alex");
+		nameslist.add("Stephen");
+		nameslist.add("Daniel");
+		nameslist.add("John");
+		
+		System.out.println(nameslist.get(4));
+		
+		
+		
+		
+	}
+
+}

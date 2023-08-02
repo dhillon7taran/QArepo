@@ -1,0 +1,43 @@
+package coreJava.variables;
+
+public class PrimitiveVariables {
+
+	public static void main(String[] args) {
+		
+		// Integer  type of data
+		
+		byte a;
+		short b;
+		int c;
+		long d;
+		
+		
+		// decimail type
+		
+		float x;
+		double y;
+		
+		// single character type
+		
+		char ch;
+		
+		// true or false
+		
+		boolean bool;
+		
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		
+		System.out.println(x);
+		System.out.println(y);
+		
+		
+		System.out.println(ch);
+		
+		System.out.println(bool);
+
+	}
+
+}

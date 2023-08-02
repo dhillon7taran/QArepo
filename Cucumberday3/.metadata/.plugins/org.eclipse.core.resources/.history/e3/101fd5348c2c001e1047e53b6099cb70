@@ -1,0 +1,73 @@
+package com.stepdefination;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class Stepdefclass {
+	WebDriver driver;
+	@Given("I have fb url")
+	public void i_have_fb_url() {
+		driver = new ChromeDriver();
+		//driver.get("https://www.facebook.com/");
+		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		
+		
+		// Want to maximize window => manage window size
+		driver.manage().window().maximize();
+		
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	@When("user enters valid username")
+	public void user_enters_valid_username() {
+		//WebElement username = driver.findElement(By.id("email"));
+		
+				WebElement username = driver.findElement(By.name("username"));
+				username.sendKeys("Admin");
+				
+				
+				
+				
+				
+				
+				
+				
+		
+	}
+	@When("user enters valid passwd")
+	public void user_enters_valid_passwd() {
+		WebElement password = driver.findElement(By.xpath("//input[@type='password']"));
+		password.sendKeys("admin123");   
+	}
+	@When("click on login button")
+	public void click_on_login_button() {
+		
+		WebElement loginButton =driver.findElement(By.xpath("//button[@type='submit']"));
+		loginButton.click();
+		
+	}
+	@Then("user should land on dashboard page")
+	public void user_should_land_on_dashboard_page() {
+		
+		System.out.println("I am on dashboard page ");
+	    
+	}
+
+
+
+	
+	
+	
+	
+	
+}

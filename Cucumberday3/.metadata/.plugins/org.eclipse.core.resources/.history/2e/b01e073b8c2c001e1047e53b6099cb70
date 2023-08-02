@@ -1,0 +1,12 @@
+Feature: Verify facebook login feature
+  
+
+  
+  Scenario: To verify  facebook login functionality
+    Given I have fb url 
+    
+    When user enters valid username 
+    And user enters valid passwd
+    And click on login button
+    Then user should land on dashboard page
+    

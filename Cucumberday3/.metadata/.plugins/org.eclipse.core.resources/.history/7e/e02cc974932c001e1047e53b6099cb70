@@ -1,0 +1,16 @@
+
+
+Feature: HRM page functionality testing
+  
+
+  
+  Scenario:login functionality
+    Given hrm url is given
+   
+    When user enetrs username
+    And user enters pswd
+    And click on login button
+    Then it should navigate to hrm dashboard
+    
+
+
